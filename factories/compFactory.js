@@ -1,4 +1,4 @@
-import mediatorService from "../mediatorService.js";
+import mediatorService from "../services/mediatorService.js";
 
 const compFactory = (foodType) => (() => {
     const mediator = mediatorService[foodType];
